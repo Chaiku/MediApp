@@ -1,0 +1,2 @@
+# MediApp
+Full-stack web application built on Medicare spending data provided by &lt;a href="https://data.world/data4democracy/drug-spending/workspace/file?filename=spending-2011.csv">Data4Democracy&lt;/a>                         Data was migrated, seeded, and synced in to MySQL using PapaParse and nodeJS. Front-end coded in React JSX, HTML, and CSS. Back-end coded with Javscript, Sequelize, and NodeJS. Deployed on Heroku and synced via JawsDB.
