@@ -1,0 +1,14 @@
+mysql://anfvw52thkhxe3ti:ubpunszmbwh94ol9@q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/gsjudyu51ai85mwc
+
+
+
+// doesn't seem to work
+ "build": "cd client && npm install && npm run build",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "seed": "node_modules/.bin/sequelize db:seed:all"
+
+//does work 
+  "seed": "node_modules/.bin/sequelize db:seed:all",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"

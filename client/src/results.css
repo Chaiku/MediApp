@@ -1,0 +1,17 @@
+.bgImg {
+    position: fixed;
+    width: 100%;
+    border: none;
+    margin-top: -250px;
+    margin-left: -10px;
+    z-index: -1;
+    min-height: 100%;
+    min-width: 1024px;
+}
+
+body {
+    background-image: linear-gradient(transparent, white 13%), url('../src/resultsImage.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100vh;
+};
